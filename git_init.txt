@@ -1,0 +1,11 @@
+1. initialize a folder to reposity.
+   git init
+2. sshKey generate 
+   ssh-keygen -t rsa -C "youremail@example.com"
+   the content of id_rsa.pub is to be filled on github.
+2. local reposity link to remote reposity.
+   e.g. git remote add origin git@github.com:michaelliao/learngit.git
+3. update all file from remote reposity.
+   git pull origin master
+4. push local files to remote reposity.
+   git push origin master.
